@@ -130,7 +130,7 @@ Your response:"""
 prompt = PromptTemplate.from_template(template)
 
 # State for controlling conversation
-if st.checkbox("Start Conversation"):
+if st.checkbox("Start Conversation") and warning_message == "":
     st.session_state.sidebar_state = 'expanded'# Initialize detected disease variable
 
     st.sidebar.write(f"Predicted Disease for the uploaded plant : {prediction}")

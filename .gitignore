@@ -1,0 +1,11 @@
+Croprotect__EDA.ipynb
+Docs/
+app_env/Include/
+app_env/Lib/
+app_env/Scripts/
+app_env/etc/
+app_env/pyvenv.cfg
+app_env/share/
+pepper_model.h5
+potato_model.h5
+tomato_model.h5
